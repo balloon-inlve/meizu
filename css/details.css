@@ -1,0 +1,586 @@
+#details .center {
+  width: 1240px;
+  margin: auto;
+}
+
+#details #header-wrap {
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 90px;
+  z-index: 999;
+}
+
+#details #header-wrap #header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#details #header-wrap #header .left #logo a {
+  display: block;
+  width: 125px;
+  height: 24px;
+  padding: 33px 0;
+}
+
+#details #header-wrap #header .left #logo a svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#details #header-wrap #header .right {
+  display: flex;
+}
+
+#details #header-wrap #header .right .nav {
+  display: flex;
+  align-items: center;
+}
+
+#details #header-wrap #header .right .nav a {
+  padding: 31px 20px 30px;
+  cursor: pointer;
+}
+
+#details #header-wrap #header .right .nav a:hover {
+  color: #008cff;
+}
+
+#details #header-wrap #header .right .search {
+  position: relative;
+  float: right;
+  width: 170px;
+  height: 30px;
+  line-height: 29px;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+
+#details #header-wrap #header .right .search input {
+  display: block;
+  border: none;
+  padding: 0;
+  outline: 0;
+  width: 127px;
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 5px;
+  transition: width 0.5s;
+  font-size: 12px;
+  line-height: 20px;
+  color: #333;
+  background: transparent;
+  box-sizing: content-box;
+  outline-offset: 0;
+}
+
+#details #header-wrap #header .right .search a {
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#details #header-wrap #header .right .btns {
+  margin-left: 20px;
+}
+
+#details #header-wrap #header .right .btns i {
+  color: #8a8a8a;
+  font-size: 22px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+#details #header-wrap #header .right .btns i em {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  height: 15px;
+  border-radius: 50%;
+  background: #c00;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  display: inline-block;
+  padding: 0 4px;
+  text-indent: 0;
+  font-style: normal;
+  font-size: 6px;
+}
+
+#details #header-wrap #header .right .btns .icon-geren:hover .btns-menu {
+  display: block;
+}
+
+#details #header-wrap #header .right .btns .icon-geren:hover .menu-triangle {
+  display: block;
+}
+
+#details #header-wrap #header .right .btns .icon-geren .btns-menu {
+  position: absolute;
+  z-index: 99999;
+  background-color: #fff;
+  width: 100px;
+  left: -36px;
+  top: 38px;
+  display: none;
+}
+
+#details #header-wrap #header .right .btns .icon-geren .btns-menu li {
+  text-align: center;
+}
+
+#details #header-wrap #header .right .btns .icon-geren .btns-menu li a {
+  color: #515151;
+  font-size: 12px;
+  display: block;
+  padding: 12px 10px 5px 10px;
+}
+
+#details #header-wrap #header .right .btns .icon-geren .btns-menu li a:hover {
+  color: #008cff;
+}
+
+#details #header-wrap #header .right .btns .icon-geren .menu-triangle {
+  width: 0;
+  height: 0;
+  border: 8px solid red;
+  border-top-color: transparent;
+  border-bottom-color: #fff;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  z-index: 99999;
+  position: absolute;
+  right: 8px;
+  top: 22px;
+  display: none;
+}
+
+#details #header-wrap .sec-nav {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -90px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  height: 0px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#details #header-wrap .sec-nav li {
+  display: none;
+  padding: 5px 5px 20px;
+}
+
+#details #header-wrap .sec-nav li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+#details #header-wrap .sec-nav li img {
+  width: 120px;
+  height: 120px;
+}
+
+#details #header-wrap .sec-nav li span,
+#details #header-wrap .sec-nav li em {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#details #header-wrap .sec-nav .disabled {
+  opacity: 0.5;
+}
+
+#details #header-wrap .sec-nav-show {
+  height: 183px;
+  top: 0px;
+  transition: all 0.5s ease;
+}
+
+#details #header-wrap .sec-nav-show li {
+  display: block;
+}
+
+#details #menu-bar {
+  background: #f6f8fb;
+  height: 70px;
+  line-height: 70px;
+  width: 100%;
+}
+
+#details #menu-bar #menu-bar-zi {
+  display: flex;
+  justify-content: space-between;
+}
+
+#details #menu-bar #menu-bar-zi #men-bar-left {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#details #menu-bar #menu-bar-zi #men-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+#details #menu-bar #menu-bar-zi #men-bar-right li {
+  text-align: center;
+  border-right: 1px solid #dedede;
+  height: 16px;
+  line-height: 16px;
+}
+
+#details #menu-bar #menu-bar-zi #men-bar-right li a {
+  display: block;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+#details #menu-bar #menu-bar-zi #men-bar-right li a:hover {
+  color: #008cff;
+}
+
+#details #details-main {
+  display: flex;
+  padding-top: 60px;
+}
+
+#details #details-main #main-left a {
+  display: block;
+}
+
+#details #details-main #main-left a #main-left-img {
+  display: block;
+  width: 560px;
+  height: 560px;
+}
+
+#details #details-main #main-left ul {
+  display: flex;
+  justify-content: space-around;
+  width: 612px;
+}
+
+#details #details-main #main-left ul li {
+  cursor: pointer;
+}
+
+#details #details-main #main-left ul li img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  display: block;
+}
+
+#details #details-main #main-left ul li .active {
+  border: 2px solid #008cff;
+  padding: 3px;
+}
+
+#details #details-main #main-left .left-p1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+#details #details-main #main-left .left-p1 a {
+  display: block;
+  color: #bfbfbf;
+  margin-left: 36px;
+  text-align: center;
+}
+
+#details #details-main #main-left .left-p1 a i {
+  display: block;
+  font-size: 20px;
+}
+
+#details #details-main #main-left .left-p1 a span {
+  font-size: 12px;
+}
+
+#details #details-main #main-right .h5 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#details #details-main #main-right .detailed {
+  color: #e22841;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+#details #details-main #main-right #right-grey {
+  background: #f4f6fa;
+  padding: 16px 0 12px;
+  margin: 16px 0;
+}
+
+#details #details-main #main-right #right-grey p {
+  padding-left: 12px;
+}
+
+#details #details-main #main-right #right-grey .price {
+  color: red;
+}
+
+#details #details-main #main-right #right-grey .price #right-grey-price {
+  font-size: 30px;
+}
+
+#details #details-main #main-right #right-grey .coupon .coupon-span1 {
+  background: #f2eaef;
+  color: #e02b41;
+  padding: 5px 5px;
+  font-size: 12px;
+}
+
+#details #details-main #main-right #right-grey .coupon .coupon-span2 {
+  color: #e02b41;
+  font-size: 12px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+#details #details-main #main-right #right-grey .coupon .coupon-a {
+  font-size: 12px;
+  color: #008cff;
+}
+
+#details #details-main #main-right #right-grey .jiagou {
+  margin-top: 14px;
+  padding-bottom: 10px;
+}
+
+#details #details-main #main-right #right-grey .jiagou .jiagou-span1 {
+  background: #f2eaef;
+  color: #e02b41;
+  padding: 5px 5px;
+  font-size: 12px;
+}
+
+#details #details-main #main-right #right-grey .jiagou .jiagou-span2 {
+  font-size: 12px;
+  margin: 0 8px;
+}
+
+#details #details-main #main-right #right-grey .jiagou .jiagou-a {
+  font-size: 12px;
+  color: #008cff;
+}
+
+#details #details-main #main-right .payment {
+  color: #8c8c8c;
+  font-size: 12px;
+  padding-left: 14px;
+}
+
+#details #details-main #main-right .payment i {
+  font-size: 12px;
+}
+
+#details #details-main #main-right .payment span {
+  margin-right: 24px;
+}
+
+#details #details-main #main-right .abtns {
+  margin-top: 60px;
+}
+
+#details #details-main #main-right .abtns #btn1 {
+  width: 262px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 26px;
+  color: #fff;
+  background-color: #008cff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#details #details-main #main-right .abtns #btn1:hover {
+  background-color: #23a0e5;
+}
+
+#details #details-main #main-right .abtns #btn2 {
+  width: 262px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 26px;
+  color: #008cff;
+  border: 1px solid #008cff;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#details #details-main #main-right .abtns #btn2:hover {
+  background-color: #eef8fd;
+}
+
+#details #footer {
+  margin-top: 40px;
+}
+
+#details #footer .main9top {
+  border-bottom: 1px solid #eeeeee;
+  padding: 50px 0 34px 0;
+  display: flex;
+}
+
+#details #footer .main9top .top-left {
+  display: flex;
+}
+
+#details #footer .main9top .top-left li {
+  width: 150px;
+  height: 68px;
+  text-align: center;
+}
+
+#details #footer .main9top .top-left li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#details #footer .main9top .top-left li a span {
+  display: block;
+  font-size: 12px;
+  color: #8f9a9c;
+}
+
+#details #footer .main9top .top-right {
+  width: 170px;
+}
+
+#details #footer .main9top .top-right p {
+  text-align: right;
+}
+
+#details #footer .main9top .top-right .right-p1 {
+  color: #979aa3;
+  font-size: 12px;
+}
+
+#details #footer .main9top .top-right .right-p2 {
+  font-size: 20px;
+  color: #0096ff;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+#details #footer .main9top .top-right button {
+  width: 90px;
+  height: 32px;
+  background: #008cff;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+#details #footer .main9middl {
+  display: flex;
+  padding: 26px 0 20px 0;
+}
+
+#details #footer .main9middl li {
+  padding-right: 15px;
+  border-right: 1px solid #d6d6d6;
+  float: left;
+  height: 18px;
+  margin-right: 15px;
+}
+
+#details #footer .main9middl li a {
+  display: inline-block;
+  font-size: 12px;
+  color: #9c9c94;
+}
+
+#details #footer .main9middl li a:hover {
+  color: #008cff;
+}
+
+#details #footer .main9middl .main9ul-special {
+  border: none;
+}
+
+#details #footer .main9middl .main9ul-special i {
+  color: red;
+}
+
+#details #footer .main9bottom {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#details #footer .main9bottom p {
+  color: #999e9a;
+  font-size: 10px;
+}
+
+#details #footer .main9bottom ul {
+  display: flex;
+}
+
+#details #footer .main9bottom ul li {
+  border-right: 1px solid #d6d6d6;
+}
+
+#details #footer .main9bottom ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #999e9a;
+  font-size: 14px;
+}
+
+#details #to-top {
+  width: 50px;
+  height: 50px;
+  background-color: #f1f1f1;
+  position: fixed;
+  right: 26px;
+  bottom: 30px;
+  z-index: 10000;
+  cursor: pointer;
+  text-align: center;
+  display: none;
+}
+
+#details #to-top i {
+  color: #008cff;
+  width: 10px;
+  font-size: 20px;
+}
+
+#details #to-top span {
+  display: block;
+  font-size: 14px;
+}
+
+#details .fix {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  opacity: 0.9;
+}

@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+a,
+article,
+aside,
+body,
+button,
+dd,
+details,
+div,
+dl,
+dt,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+img,
+input,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+select,
+table,
+tbody,
+td,
+textarea,
+th,
+tr,
+thead,
+tfoot,
+fieldset,
+legend,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  /* display: block;
+  width: 100%; */
+  border: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.clear_fix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*防止拖动*/
+textarea {
+  resize: none;
+}
+
+/*去掉input等聚焦时的蓝色边框*/
+input {
+  outline: none;
+}
+
+fieldset,
+img,
+input,
+button {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+  outline-style: none;
+}
+i,
+em {
+  font-style: normal;
+}

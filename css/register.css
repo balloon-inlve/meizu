@@ -1,0 +1,189 @@
+#zhuce .center {
+  width: 1140px;
+  margin: auto;
+}
+
+#zhuce #zhuce-header {
+  height: 90px;
+}
+
+#zhuce #zhuce-header #head .left #logo a {
+  display: block;
+  width: 125px;
+  height: 24px;
+  padding: 33px 0;
+}
+
+#zhuce #zhuce-header #head .left #logo a svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#zhuce #zhuce-main {
+  height: 748px;
+  background: url(../images/pic-flyme.png) no-repeat center;
+  background-color: #f1fdfd;
+  position: relative;
+}
+
+#zhuce #zhuce-main #zhuce-form {
+  width: 340px;
+  background-color: #fff;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  box-shadow: -1px 5px 10px 4px #e9f6f6;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-title {
+  text-align: center;
+  padding: 70px 0 110px 0;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-title a {
+  color: #387aff;
+  font-size: 20px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-title a:hover {
+  color: #3058df;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-name {
+  margin-bottom: 30px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-name label {
+  display: inline-block;
+  text-align: right;
+  width: 80px;
+  padding-right: 10px;
+  color: #444444;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-name input {
+  height: 22px;
+  width: 175px;
+  border: 1px solid #ececec;
+  padding-left: 5px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-name span {
+  display: inline-block;
+  padding: 8px 0 0 96px;
+  font-size: 12px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-psw {
+  margin-bottom: 30px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-psw input {
+  height: 22px;
+  width: 175px;
+  border: 1px solid #ececec;
+  padding-left: 5px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-psw label {
+  display: inline-block;
+  text-align: right;
+  width: 80px;
+  padding-right: 10px;
+  color: #444444;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-psw span {
+  display: inline-block;
+  padding: 8px 0 0 96px;
+  font-size: 12px;
+}
+
+#zhuce #zhuce-main #zhuce-form #zhuce-yes {
+  text-align: center;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-btn input {
+  font-size: 14px;
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  background-color: #387aff;
+  width: 200px;
+  cursor: pointer;
+  margin: 0 60px;
+  color: #fff;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-btn input:hover {
+  background-color: #3058df;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-denglu1 {
+  padding: 20px 0 30px 10px;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-denglu1 a {
+  color: #387aff;
+}
+
+#zhuce #zhuce-main #zhuce-form .form-denglu1 a:hover {
+  color: #3058df;
+}
+
+#zhuce #zhucefooter #footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 0 32px 0;
+}
+
+#zhuce #zhucefooter #footer-top #top-left {
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+}
+
+#zhuce #zhucefooter #footer-top #top-left li {
+  width: 70px;
+  border-right: 2px solid #888888;
+}
+
+#zhuce #zhucefooter #footer-top #top-left li a {
+  display: block;
+}
+
+#zhuce #zhucefooter #footer-top #top-zhongjian span {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#zhuce #zhucefooter #footer-top #top-zhongjian .zhongjian-teshu {
+  background-color: #32a5e7;
+  color: #fff;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+#zhuce #zhucefooter #footer-top #top-right i {
+  margin-left: 10px;
+  color: #a8a8a8;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#zhuce #zhucefooter #footer-button {
+  font-size: 12px;
+  color: #7f7f7f;
+  padding-bottom: 30px;
+}
+
+#zhuce #zhucefooter #footer-button a {
+  margin-left: 5px;
+}
+
+#zhuce #zhucefooter #footer-button a:hover {
+  color: #000;
+}
